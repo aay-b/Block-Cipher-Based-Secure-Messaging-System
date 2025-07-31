@@ -1,0 +1,90 @@
+===============================================================================
+
+1. Instructions
+
+- replace any [...] with free text,
+  and
+- replace the [?] with an X if you have completed that stage,
+- replace the [?] with an * if you have attempted that stage, but you know
+  it doesn't work completely; document why you think it doesn't work, plus
+  what you would do to fix the problem, at the end of the marksheet.
+
+===============================================================================
+
+2. Information
+
+So that we can calibrate and improve the assignment in the future, give us
+a rough idea how long (in hours) you spent on it *in total*:
+
+effort : 42 hours
+
+===============================================================================
+
+3. Citation
+
+Clearly it might have an influence on your mark, but the use of third-party
+resources is allowed *iff.* it
+
+- hasn't been explicitly prohibited by the assignment description, *and*
+- is correctly cited.
+
+Let us know any third-party source code or resources you used (if any) so
+it's clear what's your work and what isn't:
+
+1. Daniel Stephen Page (2009). A Practical Introduction to Computer Architecture. Dordrecht ; New York: Springer. 
+
+2. COMS10015. (2024). Material: TB1. [online] Available at: https://cs-uob.github.io/COMS10015/material-TB1 [Accessed 1-15 Nov. 2024].
+
+3. www.tutorialspoint.com. (n.d.). VLSI Design - Verilog Introduction - Tutorialspoint. [online] Available at: https://www.tutorialspoint.com/vlsi_design/vlsi_design_verilog_introduction.htm.
+
+4. Udemy. (2024). Online Courses - Learn Anything, On Your Schedule | Udemy. [online] Available at: https://www.udemy.com/course/verilog-hdl-fundamentals-for-digital-design-and-verification/learn/lecture/28323606#content [Accessed 1-15 Nov. 2024].
+
+5. Korkonda Srivaishnavi, Gorigapudi Sowmya, P Laxmikanth, Kumar, P. and Kiran Mannem (2024). Design and Implementation of Efficient Block Cipher. [online] pp.1–5. doi:https://doi.org/10.1109/iciteics61368.2024.10625542.
+
+6. Hardware Modeling Using Verilog (2017). PIPELINE MODELING (PART 1). [online] YouTube. Available at: https://www.youtube.com/watch?v=f0mM0EKw3rk [Accessed 16 Nov. 2024].
+
+‌
+
+===============================================================================
+
+4. Marking
+
+The following gives a stage-by-stage description of the assignment marking
+scheme.  Note this acts as an indicative guideline only, including weights
+for each more obvious aspect (e.g., functional correctness); other aspects
+outside this list can warrant an increase/decrease in marks, with examples
+including hard to quantify features such as style, efficiency, robustness, 
+generality, or realism of a solution.  Put another way, identifying then
+reasoning about these latter aspects forms part of the assessment, so they
+are not (necessarily) detailed explicitly.
+
+    Stage 1 : implement
+X           - sbox         module                                  ( 20%)
+X           - key_schedule module                                  ( 10%)
+X           - round        module                                  ( 10%)
+
+X Stage 2 : implement encrypt_v1 module, combinatorial design      ( 20%)
+
+X Stage 3 : implement encrypt_v2 module, iterative     design      ( 20%)
+
+X Stage 4 : implement encrypt_v3 module, pipelined     design      ( 20%)
+
+                                                                     ------
+                                                                     (100%)
+
+===============================================================================
+
+5. Documentation
+
+Any other documentation, notes or comments that you think are important or
+might be easy to overlook (e.g., a subtle issue or technique in associated
+source code) should go here:
+
+1. Flow diagrams and output from each stage have been attached as separate files.
+2. I faced some problems in assigning data from wire to register variables and vice versa. The stage 4 concept about implementing pipeline strategy was very time consuming and challenging with little information given in the doc but with a lot of research, I was able to complete stage 4. 
+3. Understanding the test bench to debug my code also took a lot of time.
+4. Within the for loop, I faced a lot of challenges to implement always block and assignment for next variable but overcame that too. 
+5. Although the document was huge, the test cases helped a lot. It would've been even more helpful if such test cases were also provided for stage 3 and 4.
+6. Also I did a lot of research to understand PRESENT.
+
+===============================================================================
